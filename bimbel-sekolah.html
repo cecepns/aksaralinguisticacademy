@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Academic School Tuition | Aksara Linguistic Academy</title>
+  <meta name="description" content="Comprehensive school academic support: Nursery to K2 Early Foundations (Calistung & Phonics), Primary Tuition, and Secondary School Tuition." />
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 Free Solid Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpeg" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="slogan-tag">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+        </svg>
+        <span data-i18n="topbar.slogan">We are ALAvators — achieve higher !</span>
+      </div>
+      <div class="top-bar-links">
+        <a href="kontak.html" data-i18n="topbar.admission">Admissions & New Class Consultation Open</a>
+        <a href="https://wa.me/6281770070026" target="_blank" data-i18n="topbar.whatsapp">Official WhatsApp Support</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand-wrapper" aria-label="Aksara Linguistic Academy">
+        <div class="brand-logo-frame">
+          <img src="assets/logo.jpeg" alt="Aksara Linguistic Academy" class="brand-logo-img" />
+        </div>
+      </a>
+
+      <nav class="nav-links" id="mainNav">
+        <a href="index.html" class="nav-link" data-i18n="nav.home">Home</a>
+        <a href="tentang.html" class="nav-link" data-i18n="nav.about">About Us</a>
+        <a href="program-bahasa.html" class="nav-link" data-i18n="nav.programs">Linguistic Programs</a>
+        <a href="bimbel-sekolah.html" class="nav-link active" data-i18n="nav.tuition">School Tuition</a>
+        <a href="persiapan-ujian.html" class="nav-link" data-i18n="nav.testprep">Test Prep & Corporate</a>
+        <a href="kontak.html" class="nav-link" data-i18n="nav.contact">Contact & FAQ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Language Switcher Dropdown -->
+        <div class="lang-selector-dropdown">
+          <button class="lang-btn" id="langDropdownBtn" type="button" aria-label="Select Language">
+            <span id="currentLangFlag"><img src="assets/flags/uk.svg" alt="UK Flag" class="flag-icon" /></span>
+            <span id="currentLangText">English</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="lang-menu" id="langMenu">
+            <button type="button" class="lang-option active" data-lang="en">
+              <img src="assets/flags/uk.svg" alt="UK Flag" class="flag-icon" />
+              <span>English (Default)</span>
+            </button>
+            <button type="button" class="lang-option" data-lang="id">
+              <img src="assets/flags/id.svg" alt="Indonesia Flag" class="flag-icon" />
+              <span>Bahasa Indonesia</span>
+            </button>
+            <button type="button" class="lang-option" data-lang="zh">
+              <img src="assets/flags/cn.svg" alt="China Flag" class="flag-icon" />
+              <span>中文 (Mandarin)</span>
+            </button>
+          </div>
+        </div>
+
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          &#9776;
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Subpage Hero Banner -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb-nav">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <span class="separator">/</span>
+        <span class="current" data-i18n="nav.tuition">School Tuition</span>
+      </div>
+      <h1 class="page-title" data-i18n="tuition.page_title">Academic School Tuition</h1>
+      <p class="page-desc" data-i18n="tuition.page_desc">
+        Structured academic support for school students across all stages: from early literacy & numeracy (Nursery to K2), to primary school success and secondary analytical mastery.
+      </p>
+    </div>
+  </section>
+
+  <!-- Detailed Academic Tuition Programs -->
+  <section class="page-section bg-white">
+    <div class="container">
+
+      <!-- Program 1: Nursery to K2 -->
+      <div class="feature-block-grid">
+        <div class="feature-content">
+          <div class="badge-pill badge-gold" data-i18n="badge.early_primary">Early Foundations</div>
+          <h3 data-i18n="k2.title">1. Nursery to K2 Programme</h3>
+          <h4 style="color: var(--brand-gold); margin-bottom: 12px; font-weight: 600;" data-i18n="k2.sub">Building Strong Foundations from an Early Age</h4>
+          <p data-i18n="k2.desc">
+            This programme helps young children develop essential skills before entering primary school. Lessons are designed to be fun, structured, and appropriate for each child's developmental stage.
+          </p>
+
+          <div style="background: var(--bg-subtle); padding: 20px; border-radius: var(--radius-md); border: 1px solid var(--border-light); margin-bottom: 20px;">
+            <h5 style="color: var(--brand-emerald); font-weight: 700; margin-bottom: 8px;" data-i18n="k2.calistung_title">Calistung — Bahasa Indonesia</h5>
+            <ul class="card-features-list" style="margin-bottom: 0;">
+              <li><div class="bullet-dot"></div><span data-i18n="k2.calistung_1">Letter recognition and early reading fluency</span></li>
+              <li><div class="bullet-dot"></div><span data-i18n="k2.calistung_2">Syllables, words, and sentence reading comprehension</span></li>
+              <li><div class="bullet-dot"></div><span data-i18n="k2.calistung_3">Handwriting posture and early motor writing skills</span></li>
+              <li><div class="bullet-dot"></div><span data-i18n="k2.calistung_4">Basic counting, quantity awareness, and numeracy</span></li>
+            </ul>
+          </div>
+
+          <div style="background: var(--bg-subtle); padding: 20px; border-radius: var(--radius-md); border: 1px solid var(--border-light); margin-bottom: 24px;">
+            <h5 style="color: var(--brand-gold); font-weight: 700; margin-bottom: 8px;" data-i18n="k2.phonics_title">English Phonics</h5>
+            <ul class="card-features-list" style="margin-bottom: 0;">
+              <li><div class="bullet-dot"></div><span data-i18n="k2.phonics_1">Learning English letter sounds accurately</span></li>
+              <li><div class="bullet-dot"></div><span data-i18n="k2.phonics_2">Recognising and blending phonetic sounds together</span></li>
+              <li><div class="bullet-dot"></div><span data-i18n="k2.phonics_3">Early English reading and spelling confidence</span></li>
+              <li><div class="bullet-dot"></div><span data-i18n="k2.phonics_4">Handwriting formation and essential foundational vocabulary</span></li>
+            </ul>
+          </div>
+
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="kontak.html" class="btn btn-primary btn-sm" data-i18n="btn.consult_class">Class Consultation</a>
+            <button type="button" class="btn btn-whatsapp btn-sm btn-direct-wa" data-program="Nursery to K2 Early Foundations">
+              <span data-i18n="btn.ask_whatsapp">Inquire via WhatsApp</span>
+            </button>
+          </div>
+        </div>
+        <div class="feature-media">
+          <img src="assets/mandarin.jpg" alt="Children enjoying early learning activities" />
+        </div>
+      </div>
+
+      <!-- Program 2: Primary Tuition -->
+      <div class="feature-block-grid reverse">
+        <div class="feature-content">
+          <div class="badge-pill badge-emerald" data-i18n="badge.early_primary">Primary School</div>
+          <h3 data-i18n="primary.title">2. Primary Tuition</h3>
+          <h4 style="color: var(--brand-emerald); margin-bottom: 12px; font-weight: 600;" data-i18n="primary.sub">Supporting Academic Success in Primary School</h4>
+          <p data-i18n="primary.desc">
+            Our Primary Tuition programme helps students understand school subjects more clearly, improve their academic performance, and prepare for school assessments. The programme covers all school subjects, depending on the student's curriculum and learning needs.
+          </p>
+
+          <div class="feature-box-highlight">
+            <strong data-i18n="primary.quote">"Our goal is not simply to help students finish their homework, but to help them understand what they learn."</strong>
+          </div>
+
+          <ul class="card-features-list" style="margin-bottom: 24px;">
+            <li><div class="bullet-dot"></div><span data-i18n="primary.f1">Explaining difficult concepts in a simple, relatable way.</span></li>
+            <li><div class="bullet-dot"></div><span data-i18n="primary.f2">Supporting homework and daily classroom learning.</span></li>
+            <li><div class="bullet-dot"></div><span data-i18n="primary.f3">Practising questions and systematically reviewing mistakes.</span></li>
+            <li><div class="bullet-dot"></div><span data-i18n="primary.f4">Preparing for tests, midterms, and semester examinations.</span></li>
+            <li><div class="bullet-dot"></div><span data-i18n="primary.f5">Building confidence and independent learning habits.</span></li>
+          </ul>
+
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="kontak.html" class="btn btn-primary btn-sm" data-i18n="btn.consult_class">Class Consultation</a>
+            <button type="button" class="btn btn-whatsapp btn-sm btn-direct-wa" data-program="Primary Tuition">
+              <span data-i18n="btn.ask_whatsapp">Inquire via WhatsApp</span>
+            </button>
+          </div>
+        </div>
+        <div class="feature-media">
+          <img src="assets/tuition.jpg" alt="Primary students learning with dedicated tutor" />
+        </div>
+      </div>
+
+      <!-- Program 3: Secondary Tuition -->
+      <div class="feature-block-grid">
+        <div class="feature-content">
+          <div class="badge-pill badge-gold" data-i18n="badge.step_mastery">Secondary & High School</div>
+          <h3 data-i18n="sec.title">3. Secondary Tuition</h3>
+          <h4 style="color: var(--brand-gold); margin-bottom: 12px; font-weight: 600;" data-i18n="sec.sub">Stronger Understanding. Better Academic Performance.</h4>
+          <p data-i18n="sec.desc">
+            Our Secondary Tuition programme provides subject-specific academic support for students who need to strengthen their understanding and prepare for school examinations. Students are encouraged to develop analytical thinking, problem-solving skills, and greater confidence in their academic abilities.
+          </p>
+
+          <h5 style="color: var(--brand-emerald); font-weight: 700; margin-bottom: 10px;" data-i18n="sec.subjects_title">Available Subjects Include:</h5>
+          <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 20px;">
+            <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--text-secondary);">
+              <div class="bullet-dot"></div> <strong>Mathematics</strong>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--text-secondary);">
+              <div class="bullet-dot"></div> <strong>English</strong>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--text-secondary);">
+              <div class="bullet-dot"></div> <strong>Science</strong>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--text-secondary);">
+              <div class="bullet-dot"></div> <strong>Economics</strong>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--text-secondary);">
+              <div class="bullet-dot"></div> <strong>Accounting</strong>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--text-secondary);">
+              <div class="bullet-dot"></div> <strong>Biology</strong>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--text-secondary);">
+              <div class="bullet-dot"></div> <strong>Physics</strong>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--text-secondary);">
+              <div class="bullet-dot"></div> <strong>Business Studies</strong>
+            </div>
+          </div>
+
+          <p style="font-size: 0.9375rem; color: var(--text-secondary); margin-bottom: 24px;" data-i18n="sec.f_extra">
+            Lessons can focus on difficult topics, examination practice, homework support, and systematic revision. We support National Curriculum, Cambridge (IGCSE, A-Levels), and IB.
+          </p>
+
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="kontak.html" class="btn btn-primary btn-sm" data-i18n="btn.consult_class">Class Consultation</a>
+            <button type="button" class="btn btn-whatsapp btn-sm btn-direct-wa" data-program="Secondary Tuition">
+              <span data-i18n="btn.ask_whatsapp">Inquire via WhatsApp</span>
+            </button>
+          </div>
+        </div>
+        <div class="feature-media">
+          <img src="assets/hero.jpg" alt="Secondary students working on challenging concepts" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo-frame">
+            <img src="assets/logo.jpeg" alt="Aksara Linguistic Academy Seal" class="brand-logo-img" />
+          </div>
+          <p data-i18n="footer.desc">
+            Aksara Linguistic Academy is a premier learning centre committed to empowering learners with strong academic foundations and world-class global language proficiency.
+          </p>
+          <div class="footer-slogan">
+            <i class="fa-solid fa-star"></i> <span data-i18n="footer.motto">We are ALAvators - achieve higher !</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer.nav_title">Main Pages</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="tentang.html" data-i18n="nav.about">About Us</a></li>
+            <li><a href="program-bahasa.html" data-i18n="nav.programs">Linguistic Programs</a></li>
+            <li><a href="bimbel-sekolah.html" data-i18n="nav.tuition">School Tuition</a></li>
+            <li><a href="persiapan-ujian.html" data-i18n="nav.testprep">Test Prep & Corporate</a></li>
+            <li><a href="kontak.html" data-i18n="nav.contact">Contact & FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer.prog_title">Specialised Programs</h4>
+          <ul class="footer-links">
+            <li><a href="bimbel-sekolah.html" data-i18n="k2.title">Nursery to K2 Calistung</a></li>
+            <li><a href="bimbel-sekolah.html" data-i18n="primary.title">Primary Tuition (SD)</a></li>
+            <li><a href="bimbel-sekolah.html" data-i18n="sec.title">Secondary Tuition (SMP/SMA)</a></li>
+            <li><a href="program-bahasa.html" data-i18n="mandarin.title">Mandarin for Children</a></li>
+            <li><a href="persiapan-ujian.html" data-i18n="ielts.title">TOEFL & IELTS Intensive</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact_title">Contact Us</h4>
+          <ul class="footer-contact-info">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>WhatsApp: <a href="https://wa.me/6281770070026" target="_blank" style="color: var(--brand-gold-light); font-weight: 700;">0817-700-700-26</a><br><small style="opacity: 0.7;" data-i18n="contact.wa_desc">(Official Admission Support)</small></span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span><a href="mailto:admin@aksaralinguistic.com" style="color: rgba(255,255,255,0.85);">admin@aksaralinguistic.com</a></span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>
+                <strong data-i18n="footer.c1_title">Campus 1 (Pluit):</strong><br>
+                Jl. Pluit Karang Manis Blok F6, Pluit, Jakarta Utara 14450
+              </span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>
+                <strong data-i18n="footer.c2_title">Campus 2 (Jelambar):</strong><br>
+                Jl. Empang Bahagia Raya RT 1 RW 6, Jelambar, Jakarta Barat 11460
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 <strong>Aksara Linguistic Academy</strong>. <span data-i18n="footer.rights">All rights reserved.</span></div>
+        <div>Motto: <span style="color: var(--brand-gold-light); font-weight: 600;" data-i18n="footer.motto">We are ALAvators - achieve higher !</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Direct WhatsApp Button -->
+  <a href="https://wa.me/6281770070026?text=Hello%20Aksara%20Linguistic%20Academy!%20I%20would%20like%20to%20inquire%20about%20School%20Tuition." class="floating-wa-btn" target="_blank" aria-label="Contact WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.2 8.2 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.08l-.29-.17-3.12.82.83-3.04-.19-.3a8.17 8.17 0 0 1-1.25-4.47c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.49-1.4-1.74-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.23.25-.87.85-.87 2.08s.89 2.41 1.02 2.58c.13.17 1.76 2.68 4.26 3.76.6.26 1.06.41 1.42.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z"/>
+    </svg>
+    <span data-i18n="btn.floating_wa">Chat WhatsApp</span>
+  </a>
+
+  <!-- JavaScript Modules -->
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

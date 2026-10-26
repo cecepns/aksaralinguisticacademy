@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 36" width="60" height="36">
+  <defs>
+    <clipPath id="id-clip">
+      <rect width="60" height="36" rx="3"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#id-clip)">
+    <!-- Red top half -->
+    <rect width="60" height="18" fill="#CE1126"/>
+    <!-- White bottom half -->
+    <rect y="18" width="60" height="18" fill="#FFFFFF"/>
+  </g>
+  <rect width="60" height="36" rx="3" fill="none" stroke="rgba(0,0,0,0.15)" stroke-width="1"/>
+</svg>

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linguistic Programs | Aksara Linguistic Academy</title>
+  <meta name="description" content="Comprehensive language learning programs: Bahasa Indonesia for Foreign Nationals (BIPA), Mandarin for Children, Arabic Enrichment, and Progressive English." />
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 Free Solid Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpeg" />
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="slogan-tag">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+        </svg>
+        <span data-i18n="topbar.slogan">We are ALAvators — achieve higher !</span>
+      </div>
+      <div class="top-bar-links">
+        <a href="kontak.html" data-i18n="topbar.admission">Admissions & New Class Consultation Open</a>
+        <a href="https://wa.me/6281770070026" target="_blank" data-i18n="topbar.whatsapp">Official WhatsApp Support</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand-wrapper" aria-label="Aksara Linguistic Academy">
+        <div class="brand-logo-frame">
+          <img src="assets/logo.jpeg" alt="Aksara Linguistic Academy" class="brand-logo-img" />
+        </div>
+      </a>
+
+      <nav class="nav-links" id="mainNav">
+        <a href="index.html" class="nav-link" data-i18n="nav.home">Home</a>
+        <a href="tentang.html" class="nav-link" data-i18n="nav.about">About Us</a>
+        <a href="program-bahasa.html" class="nav-link active" data-i18n="nav.programs">Linguistic Programs</a>
+        <a href="bimbel-sekolah.html" class="nav-link" data-i18n="nav.tuition">School Tuition</a>
+        <a href="persiapan-ujian.html" class="nav-link" data-i18n="nav.testprep">Test Prep & Corporate</a>
+        <a href="kontak.html" class="nav-link" data-i18n="nav.contact">Contact & FAQ</a>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Language Switcher Dropdown -->
+        <div class="lang-selector-dropdown">
+          <button class="lang-btn" id="langDropdownBtn" type="button" aria-label="Select Language">
+            <span id="currentLangFlag"><img src="assets/flags/uk.svg" alt="UK Flag" class="flag-icon" /></span>
+            <span id="currentLangText">English</span>
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <div class="lang-menu" id="langMenu">
+            <button type="button" class="lang-option active" data-lang="en">
+              <img src="assets/flags/uk.svg" alt="UK Flag" class="flag-icon" />
+              <span>English (Default)</span>
+            </button>
+            <button type="button" class="lang-option" data-lang="id">
+              <img src="assets/flags/id.svg" alt="Indonesia Flag" class="flag-icon" />
+              <span>Bahasa Indonesia</span>
+            </button>
+            <button type="button" class="lang-option" data-lang="zh">
+              <img src="assets/flags/cn.svg" alt="China Flag" class="flag-icon" />
+              <span>中文 (Mandarin)</span>
+            </button>
+          </div>
+        </div>
+
+        <button class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          &#9776;
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Subpage Hero Banner -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb-nav">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <span class="separator">/</span>
+        <span class="current" data-i18n="nav.programs">Linguistic Programs</span>
+      </div>
+      <h1 class="page-title" data-i18n="prog.page_title">Linguistic Programs</h1>
+      <p class="page-desc" data-i18n="prog.page_desc">
+        We offer a variety of language learning programs designed to meet the needs of learners of different ages, backgrounds, and proficiency levels. Our programs focus on building language skills, enhancing communication, and fostering a deeper understanding of different languages and cultures.
+      </p>
+    </div>
+  </section>
+
+  <!-- Detailed Linguistic Programs -->
+  <section class="page-section bg-white">
+    <div class="container">
+
+      <!-- Program 1: Bahasa Indonesia Program -->
+      <div class="feature-block-grid">
+        <div class="feature-content">
+          <div class="badge-pill badge-gold">
+            <img src="assets/flags/id.svg" alt="Indonesia" class="flag-icon" />
+            <span data-i18n="badge.specialty">Specialised Program</span>
+          </div>
+          <h3 data-i18n="bipa.title">1. Bahasa Indonesia Program</h3>
+          <h4 style="color: var(--brand-gold); margin-bottom: 12px; font-weight: 600;" data-i18n="bipa.sub">Indonesian Language for Foreign Nationals</h4>
+          <p data-i18n="bipa.desc">
+            Our Bahasa Indonesia program is designed for foreign nationals who wish to learn Indonesian for daily communication, professional purposes, academic needs, or cultural integration. We offer flexible learning options, including private lessons, group classes, and corporate training, tailored to each learner’s goals and needs.
+          </p>
+          <ul class="card-features-list" style="margin-bottom: 24px;">
+            <li><div class="bullet-dot"></div><span data-i18n="bipa.f1">Daily Conversation & Survival Indonesian (shopping, transport, dining, and socialising).</span></li>
+            <li><div class="bullet-dot"></div><span data-i18n="bipa.f2">Business Indonesian for professional workplace communication, meetings, and emails.</span></li>
+            <li><div class="bullet-dot"></div><span data-i18n="bipa.f3">Cultural nuances, local customs, and natural communicative expressions in Indonesia.</span></li>
+            <li><div class="bullet-dot"></div><span data-i18n="bipa.f4">Flexible options: Private 1-on-1 (in-person or online), expat small groups, and corporate sessions.</span></li>
+          </ul>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="kontak.html" class="btn btn-primary btn-sm" data-i18n="btn.consult_class">Class Consultation</a>
+            <button type="button" class="btn btn-whatsapp btn-sm btn-direct-wa" data-program="Bahasa Indonesia for Foreign Nationals">
+              <span data-i18n="btn.ask_whatsapp">Inquire via WhatsApp</span>
+            </button>
+          </div>
+        </div>
+        <div class="feature-media">
+          <img src="assets/indonesian.jpg" alt="Professional tutor teaching Bahasa Indonesia to expat" />
+        </div>
+      </div>
+
+      <!-- Program 2: Mandarin Program -->
+      <div class="feature-block-grid reverse">
+        <div class="feature-content">
+          <div class="badge-pill badge-emerald">
+            <img src="assets/flags/cn.svg" alt="China" class="flag-icon" />
+            <span data-i18n="badge.early_primary">Early Childhood & Primary</span>
+          </div>
+          <h3 data-i18n="mandarin.title">2. Mandarin Program</h3>
+          <h4 style="color: var(--brand-emerald); margin-bottom: 12px; font-weight: 600;" data-i18n="mandarin.sub">Mandarin for Early Childhood and Primary School Students</h4>
+          <p data-i18n="mandarin.desc">
+            Our Mandarin program is designed for children from nursery through primary school. Through engaging, interactive, and age-appropriate learning activities, students are introduced to Mandarin vocabulary, pronunciation, listening, and speaking skills while developing a strong foundation in the language.
+          </p>
+          <ul class="card-features-list" style="margin-bottom: 24px;">
+            <li><div class="bullet-dot"></div><span data-i18n="mandarin.f1">Pinyin phonetics & the 4 tones to instill accurate pronunciation habits from early childhood.</span></li>
+            <li><div class="bullet-dot"></div><span data-i18n="mandarin.f2">Multisensory activities: thematic flashcards, children's songs, illustrated stories, and interactive games.</span></li>
+            <li><div class="bullet-dot"></div><span data-i18n="mandarin.f3">Basic Chinese characters (Hanzi) recognition and fundamental stroke order mastery.</span></li>
+            <li><div class="bullet-dot"></div><span data-i18n="mandarin.f4">Supports school curriculum for international, SPK, and national plus school students.</span></li>
+          </ul>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="kontak.html" class="btn btn-primary btn-sm" data-i18n="btn.consult_class">Class Consultation</a>
+            <button type="button" class="btn btn-whatsapp btn-sm btn-direct-wa" data-program="Mandarin for Early Childhood and Primary">
+              <span data-i18n="btn.ask_whatsapp">Inquire via WhatsApp</span>
+            </button>
+          </div>
+        </div>
+        <div class="feature-media">
+          <img src="assets/mandarin.jpg" alt="Children happily learning Mandarin Chinese with tutor" />
+        </div>
+      </div>
+
+      <!-- Program 3: Arabic Enrichment Program -->
+      <div class="feature-block-grid">
+        <div class="feature-content">
+          <div class="badge-pill badge-gold" data-i18n="badge.all_ages">All Ages Welcome</div>
+          <h3 data-i18n="arabic.title">3. Arabic Enrichment Program</h3>
+          <h4 style="color: var(--brand-gold); margin-bottom: 12px; font-weight: 600;" data-i18n="arabic.sub">Arabic Language Enrichment for All Ages</h4>
+          <p data-i18n="arabic.desc">
+            Our Arabic enrichment program is open to learners of all ages, from children to adults. The program aims to strengthen Arabic language proficiency through structured and engaging lessons tailored to learners’ needs and abilities. Students can develop their Arabic vocabulary, reading, writing, listening, and speaking skills while deepening their understanding of the language.
+          </p>
+          <ul class="card-features-list" style="margin-bottom: 24px;">
+            <li><div class="bullet-dot"></div><span data-i18n="arabic.f1">Modern vocabulary acquisition & applied conversational Arabic (Muhadathah).</span></li>
+            <li><div class="bullet-dot"></div><span data-i18n="arabic.f2">Accurate phonetics (Makharijul Huruf), reading comprehension, and handwriting.</span></li>
+            <li><div class="bullet-dot"></div><span data-i18n="arabic.f3">Structured grammar foundations (Nahwu & Sharaf) presented simply and practically.</span></li>
+            <li><div class="bullet-dot"></div><span data-i18n="arabic.f4">Suitable for complete beginners as well as learners deepening classical and modern Arabic literature.</span></li>
+          </ul>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="kontak.html" class="btn btn-primary btn-sm" data-i18n="btn.consult_class">Class Consultation</a>
+            <button type="button" class="btn btn-whatsapp btn-sm btn-direct-wa" data-program="Arabic Enrichment Program">
+              <span data-i18n="btn.ask_whatsapp">Inquire via WhatsApp</span>
+            </button>
+          </div>
+        </div>
+        <div class="feature-media">
+          <img src="assets/arabic.jpg" alt="Students engaged in learning Arabic language" />
+        </div>
+      </div>
+
+      <!-- Program 4: English Course & Levels Pathway -->
+      <div class="feature-block-grid reverse">
+        <div class="feature-content">
+          <div class="badge-pill badge-emerald">
+            <img src="assets/flags/uk.svg" alt="United Kingdom" class="flag-icon" />
+            <span data-i18n="badge.step_mastery">Step-by-Step Mastery</span>
+          </div>
+          <h3 data-i18n="english.title">4. English Course</h3>
+          <h4 style="color: var(--brand-emerald); margin-bottom: 12px; font-weight: 600;" data-i18n="english.sub">Develop Your English, Step by Step</h4>
+          <p data-i18n="english.desc">
+            Our English Course helps learners improve their English for everyday communication, academic success, and professional development. The programme integrates four main language skills: Listening, Speaking, Reading, and Writing. Classes are organised according to learners' current abilities, so students can start at a suitable level and progress gradually.
+          </p>
+          <div class="feature-box-highlight">
+            Includes specialized options for <strong>Adult English</strong> (personal conversational goals) and <strong>Business English</strong> (corporate communication, emails, meetings, and presentations).
+          </div>
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="kontak.html" class="btn btn-primary btn-sm" data-i18n="btn.apply_diagnostic">Take Diagnostic Placement</a>
+            <button type="button" class="btn btn-whatsapp btn-sm btn-direct-wa" data-program="English Course Pathway">
+              <span data-i18n="btn.ask_whatsapp">Inquire via WhatsApp</span>
+            </button>
+          </div>
+        </div>
+        <div class="feature-media">
+          <img src="assets/hero.jpg" alt="Interactive English learning group" />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- English Levels Pathway Roadmap (Slide 7-8 PDF) -->
+  <section class="pathway-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="badge-pill badge-gold" data-i18n="badge.structured_pathway">Structured Learning Pathway</div>
+        <h2 data-i18n="pathway.title">A Learning Pathway for Every Learner</h2>
+        <p class="lead-text" data-i18n="pathway.desc">
+          The English Course can be organised into the following levels based on each learner's diagnostic placement:
+        </p>
+      </div>
+
+      <div class="levels-grid">
+        <div class="level-card">
+          <div class="level-card-header">
+            <span class="level-name">Starter</span>
+            <span class="level-num">Level 1</span>
+          </div>
+          <p class="level-focus" data-i18n="level.starter_f">Alphabet sounds, greetings, and basic everyday words.</p>
+        </div>
+
+        <div class="level-card">
+          <div class="level-card-header">
+            <span class="level-name">Beginner</span>
+            <span class="level-num">Level 2</span>
+          </div>
+          <p class="level-focus" data-i18n="level.beginner_f">Simple sentences and everyday practical expressions.</p>
+        </div>
+
+        <div class="level-card">
+          <div class="level-card-header">
+            <span class="level-name">Elementary</span>
+            <span class="level-num">Level 3</span>
+          </div>
+          <p class="level-focus" data-i18n="level.elem_f">Daily conversations and essential fundamental grammar.</p>
+        </div>
+
+        <div class="level-card">
+          <div class="level-card-header">
+            <span class="level-name">Pre-Intermediate</span>
+            <span class="level-num">Level 4</span>
+          </div>
+          <p class="level-focus" data-i18n="level.preint_f">Longer conversations and organised descriptive paragraphs.</p>
+        </div>
+
+        <div class="level-card">
+          <div class="level-card-header">
+            <span class="level-name">Intermediate</span>
+            <span class="level-num">Level 5</span>
+          </div>
+          <p class="level-focus" data-i18n="level.int_f">Expressing opinions, nuances, and communicating independently.</p>
+        </div>
+
+        <div class="level-card">
+          <div class="level-card-header">
+            <span class="level-name">Upper-Intermediate</span>
+            <span class="level-num">Level 6</span>
+          </div>
+          <p class="level-focus" data-i18n="level.upperint_f">More fluent communication and complex grammatical language.</p>
+        </div>
+
+        <div class="level-card">
+          <div class="level-card-header">
+            <span class="level-name">Advanced</span>
+            <span class="level-num">Level 7</span>
+          </div>
+          <p class="level-focus" data-i18n="level.adv_f">Academic and professional high-level English command.</p>
+        </div>
+
+        <div class="level-card">
+          <div class="level-card-header">
+            <span class="level-name">Proficiency</span>
+            <span class="level-num">Level 8</span>
+          </div>
+          <p class="level-focus" data-i18n="level.prof_f">Refined, flexible, and accurate communication at native level.</p>
+        </div>
+
+        <div class="level-card">
+          <div class="level-card-header">
+            <span class="level-name">Adult English</span>
+            <span class="level-num">Adults</span>
+          </div>
+          <p class="level-focus" data-i18n="level.adult_f">Everyday conversation confidence and tailored personal learning goals.</p>
+        </div>
+
+        <div class="level-card">
+          <div class="level-card-header">
+            <span class="level-name">Business English</span>
+            <span class="level-num">Corporate</span>
+          </div>
+          <p class="level-focus" data-i18n="level.biz_f">Workplace communication, emails, meetings, and formal presentations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo-frame">
+            <img src="assets/logo.jpeg" alt="Aksara Linguistic Academy Seal" class="brand-logo-img" />
+          </div>
+          <p data-i18n="footer.desc">
+            Aksara Linguistic Academy is a premier learning centre committed to empowering learners with strong academic foundations and world-class global language proficiency.
+          </p>
+          <div class="footer-slogan">
+            <i class="fa-solid fa-star"></i> <span data-i18n="footer.motto">We are ALAvators - achieve higher !</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer.nav_title">Main Pages</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="tentang.html" data-i18n="nav.about">About Us</a></li>
+            <li><a href="program-bahasa.html" data-i18n="nav.programs">Linguistic Programs</a></li>
+            <li><a href="bimbel-sekolah.html" data-i18n="nav.tuition">School Tuition</a></li>
+            <li><a href="persiapan-ujian.html" data-i18n="nav.testprep">Test Prep & Corporate</a></li>
+            <li><a href="kontak.html" data-i18n="nav.contact">Contact & FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer.prog_title">Specialised Programs</h4>
+          <ul class="footer-links">
+            <li><a href="program-bahasa.html" data-i18n="bipa.title">Bahasa Indonesia (BIPA)</a></li>
+            <li><a href="program-bahasa.html" data-i18n="mandarin.title">Mandarin for Children</a></li>
+            <li><a href="program-bahasa.html" data-i18n="arabic.title">Arabic Enrichment</a></li>
+            <li><a href="bimbel-sekolah.html" data-i18n="k2.title">Nursery to K2 Calistung</a></li>
+            <li><a href="persiapan-ujian.html" data-i18n="ielts.title">TOEFL & IELTS Intensive</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 data-i18n="footer.contact_title">Contact Us</h4>
+          <ul class="footer-contact-info">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>WhatsApp: <a href="https://wa.me/6281770070026" target="_blank" style="color: var(--brand-gold-light); font-weight: 700;">0817-700-700-26</a><br><small style="opacity: 0.7;" data-i18n="contact.wa_desc">(Official Admission Support)</small></span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span><a href="mailto:admin@aksaralinguistic.com" style="color: rgba(255,255,255,0.85);">admin@aksaralinguistic.com</a></span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>
+                <strong data-i18n="footer.c1_title">Campus 1 (Pluit):</strong><br>
+                Jl. Pluit Karang Manis Blok F6, Pluit, Jakarta Utara 14450
+              </span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>
+                <strong data-i18n="footer.c2_title">Campus 2 (Jelambar):</strong><br>
+                Jl. Empang Bahagia Raya RT 1 RW 6, Jelambar, Jakarta Barat 11460
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 <strong>Aksara Linguistic Academy</strong>. <span data-i18n="footer.rights">All rights reserved.</span></div>
+        <div>Motto: <span style="color: var(--brand-gold-light); font-weight: 600;" data-i18n="footer.motto">We are ALAvators - achieve higher !</span></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Direct WhatsApp Button -->
+  <a href="https://wa.me/6281770070026?text=Hello%20Aksara%20Linguistic%20Academy!%20I%20would%20like%20to%20inquire%20about%20your%20Linguistic%20Programs." class="floating-wa-btn" target="_blank" aria-label="Contact WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm.01 1.67c2.2 0 4.26.86 5.82 2.42a8.2 8.2 0 0 1 2.41 5.82c0 4.54-3.7 8.24-8.24 8.24-1.42 0-2.82-.37-4.06-1.08l-.29-.17-3.12.82.83-3.04-.19-.3a8.17 8.17 0 0 1-1.25-4.47c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.49-1.4-1.74-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.16 0-.43.06-.66.31-.23.25-.87.85-.87 2.08s.89 2.41 1.02 2.58c.13.17 1.76 2.68 4.26 3.76.6.26 1.06.41 1.42.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z"/>
+    </svg>
+    <span data-i18n="btn.floating_wa">Chat WhatsApp</span>
+  </a>
+
+  <!-- JavaScript Modules -->
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
